@@ -19,3 +19,6 @@
 
 /* Keep square source artwork optically centred inside wide logo cards */
 .proto-logo-row img{position:absolute;left:50%;top:50%;width:76%;height:72%;object-position:center;transform:translate(-50%,-50%)}.proto-logo-row div:hover img{transform:translate(-50%,-50%) scale(1.05)}.proto-client-row img{width:68%;height:72%}.proto-client-row img[alt="Burger King"]{width:46%;height:76%;filter:grayscale(1) contrast(1.35) brightness(1.65);mix-blend-mode:normal}.proto-client-row div:hover img[alt="Burger King"]{filter:none}
+.international-row{grid-template-columns:repeat(4,1fr);max-width:920px;margin-left:auto;margin-right:auto}.local-client-row{grid-template-columns:repeat(7,1fr)}.international-row div{height:112px}.local-client-row div{height:96px}.international-row img{width:62%;height:72%}.local-client-row img{width:72%;height:70%}
+@media(max-width:1000px){.local-client-row{grid-template-columns:repeat(4,1fr)}}
+@media(max-width:680px){.international-row,.local-client-row{grid-template-columns:1fr 1fr}.international-row div,.local-client-row div{height:92px}}
