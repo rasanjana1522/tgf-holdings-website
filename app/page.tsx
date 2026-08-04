@@ -11,9 +11,15 @@ const services = [
   ["Service & maintenance", "Planned maintenance and expert support you can depend on."],
 ];
 const partners = [
-  ["UNOX", "/logos/partner-32.jpg"], ["Williams", "/logos/partner-33.jpg"],
-  ["Precision", "/logos/partner-34.jpg"], ["Hobart", "/logos/partner-35.jpg"],
-  ["Sammic", "/logos/partner-36.jpg"], ["Roller Grill", "/logos/partner-37.jpg"],
+  ["Mareno", "/logos/partner-29.jpg"], ["Tru-Tec", "/logos/partner-30.jpg"],
+  ["Rational", "/logos/partner-31.jpg"], ["UNOX", "/logos/partner-32.jpg"],
+  ["Williams", "/logos/partner-33.jpg"], ["Precision", "/logos/partner-34.jpg"],
+  ["Hobart", "/logos/partner-35.jpg"], ["Sammic", "/logos/partner-36.jpg"],
+  ["Roller Grill", "/logos/partner-37.jpg"], ["Bartscher", "/logos/partner-38.jpg"],
+  ["Winterhalter", "/logos/partner-39.jpg"], ["ITV Ice Makers", "/logos/partner-40.jpg"],
+  ["Fiorini", "/logos/partner-41.jpg"], ["Chanmag", "/logos/partner-42.jpg"],
+  ["Sinmag", "/logos/partner-43.jpg"], ["Kolb", "/logos/partner-44.jpg"],
+  ["Fagor", "/logos/partner-27.jpg"], ["Moffat", "/logos/partner-28.jpg"],
 ];
 const clients = [
   ["Shangri-La", "/logos/client-3.png"], ["Cinnamon Hotels", "/logos/client-2.png"],
