@@ -22,3 +22,7 @@
 .international-row{grid-template-columns:repeat(4,1fr);max-width:920px;margin-left:auto;margin-right:auto}.local-client-row{grid-template-columns:repeat(7,1fr)}.international-row div{height:112px}.local-client-row div{height:96px}.international-row img{width:62%;height:72%}.local-client-row img{width:72%;height:70%}
 @media(max-width:1000px){.local-client-row{grid-template-columns:repeat(4,1fr)}}
 @media(max-width:680px){.international-row,.local-client-row{grid-template-columns:1fr 1fr}.international-row div,.local-client-row div{height:92px}}
+
+/* Source-aware monochrome logo treatments */
+.international-row img{filter:grayscale(1) invert(1) contrast(1.6);mix-blend-mode:screen}.international-row div:hover img{filter:none;mix-blend-mode:normal}.local-client-row img[alt="Warehouse"]{filter:grayscale(1) brightness(1.8) contrast(1.4);mix-blend-mode:screen}.local-client-row div:hover img[alt="Warehouse"]{filter:none;mix-blend-mode:normal}.proto-client-row img[alt="Burger King"]{width:48%;height:78%;filter:grayscale(1) invert(1) contrast(4);mix-blend-mode:screen}.proto-client-row div:hover img[alt="Burger King"]{filter:none;mix-blend-mode:normal}
+@media(min-width:1001px){.local-client-row>div:nth-last-child(5){grid-column:2}}
