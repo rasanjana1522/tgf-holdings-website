@@ -10,8 +10,16 @@ const services = [
   ["Refrigeration solutions", "Advanced cooling systems for complete temperature control."],
   ["Service & maintenance", "Planned maintenance and expert support you can depend on."],
 ];
-const partners = ["UNOX", "williams", "PRECISION", "HOBART", "sammic", "ROLLER GRILL"];
-const clients = ["SHANGRI-LA", "MARRIOTT", "SHERATON", "Cinnamon", "BURGER KING", "DOMINO'S"];
+const partners = [
+  ["UNOX", "/logos/partner-32.jpg"], ["Williams", "/logos/partner-33.jpg"],
+  ["Precision", "/logos/partner-34.jpg"], ["Hobart", "/logos/partner-35.jpg"],
+  ["Sammic", "/logos/partner-36.jpg"], ["Roller Grill", "/logos/partner-37.jpg"],
+];
+const clients = [
+  ["Shangri-La", "/logos/client-3.png"], ["Cinnamon Hotels", "/logos/client-2.png"],
+  ["Burger King", "/logos/client-11.png"], ["Domino's Pizza", "/logos/client-12.png"],
+  ["Popeyes", "/logos/client-13.png"], ["SPAR", "/logos/client-9-1.png"],
+];
 
 export default function Home() {
   return <Shell active="/">
@@ -45,9 +53,9 @@ export default function Home() {
 
     <section className="proto-logos proto-wrap">
       <div className="proto-rule-title"><span>Our partner brands</span></div>
-      <div className="proto-logo-row">{partners.map(x=><div key={x}>{x}</div>)}</div>
+      <div className="proto-logo-row">{partners.map(([name,src])=><div key={name}><img src={src} alt={name}/></div>)}</div>
       <div className="proto-rule-title proto-client-title"><span>Trusted by leading brands</span></div>
-      <div className="proto-logo-row proto-client-row">{clients.map(x=><div key={x}>{x}</div>)}</div>
+      <div className="proto-logo-row proto-client-row">{clients.map(([name,src])=><div key={name}><img src={src} alt={name}/></div>)}</div>
     </section>
 
     <section className="proto-support proto-wrap">
