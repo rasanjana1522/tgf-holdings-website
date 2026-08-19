@@ -60,3 +60,4 @@
 
 /* Project counts vary by verified country portfolio. */
 .country-project-grid{grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.country-project-grid img.project-shot{display:block;width:100%;height:215px;object-fit:cover;object-position:center;border-right:0;background:none}
