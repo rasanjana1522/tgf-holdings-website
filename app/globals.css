@@ -64,3 +64,16 @@
 
 /* Original-colour partner showcase, rotating in readable five-second sets. */
 .partner-carousel{position:relative}.partner-logo-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;animation:partnerSetIn .55s ease both}.partner-logo-card{height:112px;padding:19px 22px;display:grid;place-items:center;overflow:hidden;border:1px solid rgba(226,170,53,.72);border-radius:7px;background:#f7f5f0;box-shadow:0 10px 25px rgba(0,0,0,.16)}.partner-logo-card.logo-on-dark{background:#10152a}.partner-logo-card img{display:block;width:100%;height:100%;object-fit:contain;object-position:center;filter:none;transform:none}.partner-carousel-controls{display:flex;justify-content:center;gap:9px;margin:16px 0 4px}.partner-carousel-controls button{width:8px;height:8px;padding:0;border:1px solid var(--gold);border-radius:50%;background:transparent;cursor:pointer;transition:.25s}.partner-carousel-controls button.active{width:26px;border-radius:5px;background:var(--gold)}@keyframes partnerSetIn{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}@media(prefers-reduced-motion:reduce){.partner-logo-row{animation:none}}@media(max-width:680px){.partner-logo-row{grid-template-columns:repeat(2,1fr)}.partner-logo-card{height:100px;padding:16px}}
+
+/* Country-page asset polish: distinct, sharp service photography and uniformly centred logos. */
+.country-service-card .service-photo{background-size:cover;background-position:center;background-repeat:no-repeat}
+.country-service-card .service-photo-1{background-image:url('/service-planning-v2.png')}
+.country-service-card .service-photo-2{background-image:url('/service-equipment-v2.png')}
+.country-service-card .service-photo-3{background-image:url('/service-fabrication-v2.png')}
+.country-service-card .service-photo-4{background-image:url('/service-workflow-v2.png')}
+.country-service-card .service-photo-5{background-image:url('/service-support-v2.png')}
+.partner-logo-card{padding:12px 16px}
+.partner-logo-card img{width:100%;height:100%;object-fit:contain;object-position:50% 50%}
+.country-logo-row>div{padding:10px 14px}
+.country-logo-row img{display:block;width:100%;height:100%;object-fit:contain;object-position:50% 50%;filter:none;transform:none;transition:none}
+.country-logo-row>div:hover img{filter:none;transform:none}
