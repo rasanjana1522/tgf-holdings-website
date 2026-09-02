@@ -85,3 +85,6 @@
 .country-service-card .service-photo,.country-project-grid .project-shot{filter:brightness(1.1) saturate(1.04)}
 .country-support{background:linear-gradient(90deg,#130B3F,rgba(19,11,63,.58)),url('/kitchen-project.jpg') right center/55% auto no-repeat}
 @media(max-width:680px){.country-hero:after{background:linear-gradient(90deg,rgba(14,7,48,.9),rgba(14,7,48,.48) 74%,rgba(14,7,48,.12)),linear-gradient(180deg,transparent 62%,rgba(14,7,48,.52))}}
+
+/* Keep Sri Lanka's opening copy compact over the continuous kitchen scene. */
+.country-sri-lanka:not(.global-landing) .country-hero .proto-hero-copy>p{max-width:440px}
