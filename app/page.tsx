@@ -1,2 +1,2 @@
 import { CountryPage } from "./country-page";
-export default function Home(){return <CountryPage country="sri-lanka"/>}
+export default function Home(){return <CountryPage country="sri-lanka" globalLanding/>}
